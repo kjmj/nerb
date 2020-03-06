@@ -1,41 +1,24 @@
 <template>
   <div>
-    <nav
-      class="navbar header has-shadow is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="~assets/buefy.png" alt="Buefy" height="28" />
-        </a>
-
-        <div class="navbar-burger">
-          <span />
-          <span />
-          <span />
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            New England Roast Beef
+          </h1>
+          <h2 class="subtitle">
+            Serving the best sandwiches in Worcester
+          </h2>
+          <br />
+          <a v-scroll-to="'#about'" href="#" style="color: white">About</a>
+          <a v-scroll-to="'#element'" href="#" style="color: white">Menu</a>
+          <a v-scroll-to="'#element'" href="#" style="color: white">Contact</a>
         </div>
       </div>
-    </nav>
-
-    <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          General
-        </p>
-        <ul class="menu-list">
-          <li v-for="(item, key) of items" :key="key">
-            <nuxt-link :to="item.to" exact-active-class="is-active">
-              <b-icon :icon="item.icon" /> {{ item.title }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </aside>
-
-      <div class="container column is-10">
-        <nuxt />
-      </div>
     </section>
+
+    <nuxt />
+    <div style="height: 1000px"></div>
   </div>
 </template>
 

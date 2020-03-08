@@ -1,22 +1,34 @@
 <template>
   <div>
-    <div v-for="category in menu" :key="category" class="menu">
+    <div v-for="category in menu" :key="category.title" class="menu">
       <p class="title">{{ category.title }}</p>
       <p class="subtitle">{{ category.desc }}</p>
       <div class="menuItem">
         <div class="mainLine">
           <span class="columns"></span>
-          <span v-for="col in category.columns" :key="col" class="price">{{
-            col
-          }}</span>
+          <span
+            v-for="(col, colIndex) in category.columns"
+            :key="colIndex"
+            class="price"
+          >
+            {{ col }}</span
+          >
         </div>
       </div>
-      <div v-for="menuItem in category.items" :key="menuItem" class="menuItem">
+      <div
+        v-for="menuItem in category.items"
+        :key="menuItem.name"
+        class="menuItem"
+      >
         <div class="mainLine">
           <span class="name">{{ menuItem.name }}</span>
-          <span v-for="price in menuItem.prices" :key="price" class="price">{{
-            price
-          }}</span>
+          <span
+            v-for="(price, priceIndex) in menuItem.prices"
+            :key="priceIndex"
+            class="price"
+          >
+            {{ price }}
+          </span>
         </div>
         <div class="itemDescription">
           {{ menuItem.desc }}

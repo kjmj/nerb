@@ -2,12 +2,7 @@
   <div>
     <section id="menuHero" class="hero is-primary is-medium has-bg-img">
       <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title"></h1>
-          <h2 class="subtitle"></h2>
-          <h2 class="subtitle"></h2>
-          <h2 class="subtitle"></h2>
-        </div>
+        <div class="container has-text-centered" style="height: 100px"></div>
       </div>
     </section>
     <div class="container menuContainer">

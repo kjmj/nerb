@@ -2,7 +2,7 @@
   <div>
     <section id="menuHero" class="hero is-primary is-medium has-bg-img">
       <div class="hero-body">
-        <div class="container has-text-centered" style="height: 100px"></div>
+        <div class="container" style="height: 100px"></div>
       </div>
     </section>
     <div class="container menuContainer">
@@ -10,7 +10,7 @@
         <div
           v-for="category in menu"
           :key="category.title"
-          class="menu column is-half-desktop"
+          class="menu column is-half-desktop has-text-centered"
         >
           <p class="title">{{ category.title }}</p>
           <p class="subtitle">{{ category.desc }}</p>
@@ -67,12 +67,13 @@ export default {
 <style scoped lang="scss">
 .menuContainer {
   width: 80%;
-  /*margin-top: -200px;*/
+  margin-top: -150px;
+  background-color: white;
 }
 
 .menu {
   /*width: 100%;*/
-  padding: 50px 30px;
+  padding: 0 30px;
 }
 
 .mainLine {
@@ -106,6 +107,7 @@ export default {
   font-weight: 500;
   opacity: 0.8;
   margin-bottom: 10px;
+  text-align: left;
 }
 .has-bg-img {
   background: url('https://shop.guglhupf.com/images/products/kaiser.jpg') center

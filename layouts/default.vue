@@ -25,3 +25,16 @@
 <script>
 export default {}
 </script>
+
+<style lang="scss">
+// Change default font
+@import url('https://fonts.googleapis.com/css?family=Lora:400,500&subset=cyrillic');
+$family-sans-serif: 'Lora', sans-serif;
+
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+</style>

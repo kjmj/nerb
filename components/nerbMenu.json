@@ -36,6 +36,158 @@
           "Grilled white chicken with buffalo sauce, lettuce, tomatoes & bleu cheese"
         }
       ]
+    },
+    {
+      "title": "Hot Sandwiches",
+      "desc":
+      "Complimentary Condiments: Lettuce, Tomatoes, Onions, Pickles, BBQ Sauce, Buffalo Sauce, Horseradish, Mayo, Mustard & Ketchup. Bacon - 50¢ extra • Cheese 25¢ extra. Platters are served with Cole Slaw, Beer Battered Fries & Beer Battered Onion Rings.",
+      "columns": ["Sandwich", "Platter"],
+      "items": [
+        {
+          "name": "Super Beef",
+          "prices": ["8.49", "12.49"],
+          "desc": "6oz Roast Beef on Onion Roll"
+        },
+        {
+          "name": "Large Beef",
+          "prices": ["7.99", "11.99"],
+          "desc":
+          "5oz Roast Beef on Sesame Roll"
+        }
+      ]
+    },
+    {
+      "title": "From The Sea",
+      "desc":
+      "",
+      "columns": ["Sandwich", "Platter"],
+      "items": [
+        {
+          "name": "Fish & Chips",
+          "prices": ["-", "11.69"],
+          "desc": "11oz beer battered haddock, fries, onion rings, & cole slaw"
+        },
+        {
+          "name": "Fried Scallops",
+          "prices": ["-", "15.99"],
+          "desc":
+          "Beer battered Scallops fries, onion rings & cole slaw"
+        }
+      ]
+    },
+    {
+      "title": "Traditional Sandwiches",
+      "desc":
+      "New England Roast Beef's Traditional Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes beer battered fries,beer battered onion rings and cole slaw. All sandwiches include lettuce, tomato, pickle, onion, cheese, mayo & mustard.",
+      "columns": [],
+      "items": [
+        {
+          "name": "Grilled Chicken",
+          "prices": ["9.99"],
+          "desc": ""
+        },
+        {
+          "name": "Chicken Salad",
+          "prices": ["9.99"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Paninis",
+      "desc":
+      "",
+      "columns": [],
+      "items": [
+        {
+          "name": "Tuna",
+          "prices": ["9.99"],
+          "desc": "White Tuna w/ tomato, onion & American cheese"
+        },
+        {
+          "name": "Italian",
+          "prices": ["9.99"],
+          "desc":
+          "Cold Cuts w/ tomato, onion, pickle, hots, Italian dressing & provolone cheese"
+        }
+      ]
+    },
+    {
+      "title": "Soups",
+      "desc":
+      "Our delicious soups are homemade daily.",
+      "columns": ["Cup", "Bowl", "Pint", "Quart"],
+      "items": [
+        {
+          "name": "Clam Chowder",
+          "prices": ["4.99", "5.49", "6.49", "11.99"],
+          "desc": ""
+        },
+        {
+          "name": "Chicken Rice",
+          "prices": ["3.99", "4.49", "5.49", "9.99"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Salads",
+      "desc":
+      "Dressing Choices: Greek, Caesar, Balsamic, Italian, Russian, Ranch, Raspberry Vinaigrette, Bleu Cheese, Peppercorn, Lite Italian, Poppy Seed. Extra Dressing - 50¢.",
+      "columns": [],
+      "items": [
+        {
+          "name": "Small Salad",
+          "prices": ["4.00"],
+          "desc": ""
+        },
+        {
+          "name": "Tossed",
+          "prices": ["6.99"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Appetizers",
+      "desc":
+      "",
+      "columns": ["Individual", "Large", "Jumbo"],
+      "items": [
+        {
+          "name": "Beer Battered Fries",
+          "prices": ["3.59", "3.99", "6.29"],
+          "desc": ""
+        },
+        {
+          "name": "Beer Battered Onion Rings",
+          "prices": ["4.39", "6.19", "12.69"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Kids Menu",
+      "desc":
+      "",
+      "columns": [],
+      "items": [
+        {
+          "name": "2 Chicken Fingers & Fries",
+          "prices": ["5.99"],
+          "desc": ""
+        },
+        {
+          "name": "Ham Roll",
+          "prices": ["5.99"],
+          "desc":
+          ""
+        }
+      ]
     }
   ]
 }

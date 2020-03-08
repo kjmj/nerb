@@ -3,7 +3,7 @@
     <div
       v-for="category in menu"
       :key="category.title"
-      class="menu column is-half"
+      class="menu column is-half-desktop"
     >
       <p class="title">{{ category.title }}</p>
       <p class="subtitle">{{ category.desc }}</p>

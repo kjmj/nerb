@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div id="about" class="columns is-centered">
+  <div id="about">
+    <div class="columns is-centered">
       <div class="column has-text-centered">
         <p class="title">Serving Worcester since 2001</p>
         <p class="subtitle">Enter a Stranger, leave as a friend</p>

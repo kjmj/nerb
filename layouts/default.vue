@@ -11,7 +11,7 @@
           </h2>
           <br />
           <a v-scroll-to="'#about'" href="#" style="color: white">About</a>
-          <a v-scroll-to="'#element'" href="#" style="color: white">Menu</a>
+          <a v-scroll-to="'#menuHero'" href="#" style="color: white">Menu</a>
           <a v-scroll-to="'#element'" href="#" style="color: white">Contact</a>
         </div>
       </div>

@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "title": "Specialty Sandwiches",
+      "desc":
+      "New England Roast Beef's Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes fries, onion rings and cole slaw.",
+      "columns": [],
+      "items": [
+        {
+          "name": "Original Philly Beef Steak Bomb",
+          "prices": ["9.99"],
+          "desc": "Jalapenos, onions, peppers, mushrooms, American cheese"
+        },
+        {
+          "name": " Original Philly Beef Cheese Steak",
+          "prices": ["9.99"],
+          "desc": "Onions, peppers & American cheese"
+        }
+      ]
+    },
+    {
+      "title": "Chicken Specialty Sandwiches",
+      "desc":
+      "New England Roast Beef's Chicken Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00 beer battered  fries, beer battered onion rings and cole slaw.",
+      "columns": [],
+      "items": [
+        {
+          "name": "BBQ Chicken",
+          "prices": ["9.99"],
+          "desc": "White Chicken marinated BBQ sauce, lettuce & tomatoes"
+        },
+        {
+          "name": "Buffalo Chicken",
+          "prices": ["9.99"],
+          "desc":
+          "Grilled white chicken with buffalo sauce, lettuce, tomatoes & bleu cheese"
+        }
+      ]
+    }
+  ]
+}

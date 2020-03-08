@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div id="description" class="columns is-centered is-vcentered">
+    <div id="aboutDescription" class="columns is-centered is-vcentered">
       <div class="column has-text-centered">
         <img
           src="https://nerb.publishpath.com/ResizeImage.aspx?m=630&img=%2FWebsites%2Fnerb%2FPhotoGallery%2F1393510%2FDSC_8606.jpg&0"

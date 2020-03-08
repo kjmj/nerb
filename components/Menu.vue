@@ -18,7 +18,7 @@
             price
           }}</span>
         </div>
-        <div class="description">
+        <div class="itemDescription">
           {{ menuItem.desc }}
         </div>
       </div>
@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style type="scss">
+<style scoped type="scss">
 .menu {
   width: 100%;
   padding: 50px 30px;
@@ -107,7 +107,7 @@ export default {
   text-align: right;
   flex: 0 0 4em;
 }
-.description {
+.itemDescription {
   font-size: 14px;
   font-weight: 500;
   opacity: 0.8;

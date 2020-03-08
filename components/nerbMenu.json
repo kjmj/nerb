@@ -4,7 +4,7 @@
       "title": "Specialty Sandwiches",
       "desc":
       "New England Roast Beef's Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes fries, onion rings and cole slaw.",
-      "columns": [],
+      "menuColumns": [],
       "items": [
         {
           "name": "Original Philly Beef Steak Bomb",
@@ -22,7 +22,7 @@
       "title": "Chicken Specialty Sandwiches",
       "desc":
       "New England Roast Beef's Chicken Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00 beer battered  fries, beer battered onion rings and cole slaw.",
-      "columns": [],
+      "menuColumns": [],
       "items": [
         {
           "name": "BBQ Chicken",
@@ -41,7 +41,7 @@
       "title": "Hot Sandwiches",
       "desc":
       "Complimentary Condiments: Lettuce, Tomatoes, Onions, Pickles, BBQ Sauce, Buffalo Sauce, Horseradish, Mayo, Mustard & Ketchup. Bacon - 50¢ extra • Cheese 25¢ extra. Platters are served with Cole Slaw, Beer Battered Fries & Beer Battered Onion Rings.",
-      "columns": ["Sandwich", "Platter"],
+      "menuColumns": ["Sandwich", "Platter"],
       "items": [
         {
           "name": "Super Beef",
@@ -60,7 +60,7 @@
       "title": "From The Sea",
       "desc":
       "",
-      "columns": ["Sandwich", "Platter"],
+      "menuColumns": ["Sandwich", "Platter"],
       "items": [
         {
           "name": "Fish & Chips",
@@ -79,7 +79,7 @@
       "title": "Traditional Sandwiches",
       "desc":
       "New England Roast Beef's Traditional Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes beer battered fries,beer battered onion rings and cole slaw. All sandwiches include lettuce, tomato, pickle, onion, cheese, mayo & mustard.",
-      "columns": [],
+      "menuColumns": [],
       "items": [
         {
           "name": "Grilled Chicken",
@@ -98,7 +98,7 @@
       "title": "Paninis",
       "desc":
       "",
-      "columns": [],
+      "menuColumns": [],
       "items": [
         {
           "name": "Tuna",
@@ -117,7 +117,7 @@
       "title": "Soups",
       "desc":
       "Our delicious soups are homemade daily.",
-      "columns": ["Cup", "Bowl", "Pint", "Quart"],
+      "menuColumns": ["Cup", "Bowl", "Pint", "Quart"],
       "items": [
         {
           "name": "Clam Chowder",
@@ -136,7 +136,7 @@
       "title": "Salads",
       "desc":
       "Dressing Choices: Greek, Caesar, Balsamic, Italian, Russian, Ranch, Raspberry Vinaigrette, Bleu Cheese, Peppercorn, Lite Italian, Poppy Seed. Extra Dressing - 50¢.",
-      "columns": [],
+      "menuColumns": [],
       "items": [
         {
           "name": "Small Salad",
@@ -155,7 +155,7 @@
       "title": "Appetizers",
       "desc":
       "",
-      "columns": ["Individual", "Large", "Jumbo"],
+      "menuColumns": ["Individual", "Large", "Jumbo"],
       "items": [
         {
           "name": "Beer Battered Fries",
@@ -174,7 +174,7 @@
       "title": "Kids Menu",
       "desc":
       "",
-      "columns": [],
+      "menuColumns": [],
       "items": [
         {
           "name": "2 Chicken Fingers & Fries",

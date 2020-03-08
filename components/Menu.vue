@@ -1,13 +1,17 @@
 <template>
-  <div>
-    <div v-for="category in menu" :key="category.title" class="menu">
+  <div class="columns is-desktop is-multiline">
+    <div
+      v-for="category in menu"
+      :key="category.title"
+      class="menu column is-half"
+    >
       <p class="title">{{ category.title }}</p>
       <p class="subtitle">{{ category.desc }}</p>
       <div class="menuItem">
         <div class="mainLine">
-          <span class="columns"></span>
+          <span class="menuColumns"></span>
           <span
-            v-for="(col, colIndex) in category.columns"
+            v-for="(col, colIndex) in category.menuColumns"
             :key="colIndex"
             class="price"
           >
@@ -53,7 +57,7 @@ export default {
 
 <style scoped type="scss">
 .menu {
-  width: 100%;
+  /*width: 100%;*/
   padding: 50px 30px;
 }
 
@@ -62,7 +66,7 @@ export default {
 }
 
 .name,
-.columns {
+.menuColumns {
   margin-right: 0.5em;
   flex: 1;
   display: flex;
@@ -74,7 +78,7 @@ export default {
   flex: 1;
 }
 
-.columns:after {
+.menuColumns:after {
   content: '';
   flex: 1;
 }

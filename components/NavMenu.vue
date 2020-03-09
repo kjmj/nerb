@@ -1,15 +1,19 @@
 <template>
-  <ul>
-    <li>
-      <a v-scroll-to="'#about'">About</a>
-    </li>
-    <li>
-      <a v-scroll-to="'#menuHero'">Menu</a>
-    </li>
-    <li>
-      <a v-scroll-to="'#nerbInfo'">Contact</a>
-    </li>
-  </ul>
+  <div class="stripes">
+    <span class="bb">
+      <ul>
+        <li>
+          <a v-scroll-to="'#about'">About</a>
+        </li>
+        <li>
+          <a v-scroll-to="'#menuHero'">Menu</a>
+        </li>
+        <li>
+          <a v-scroll-to="'#nerbInfo'">Contact</a>
+        </li>
+      </ul>
+    </span>
+  </div>
 </template>
 
 <script>
@@ -19,7 +23,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../static/style';
+@import '../static/bulmaStyle';
+@import '../static/style.scss';
 
 $duration: 0.2s;
 $distance: 8px;

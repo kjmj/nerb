@@ -1,11 +1,29 @@
-// Change default font
-@import url('https://fonts.googleapis.com/css?family=Lora:400,500&subset=cyrillic');
-$family-sans-serif: 'Lora', sans-serif;
+.stripes {
+  position: relative;
+}
 
+.stripes:after,
+.stripes:before {
+  border-top: 1px solid #ccc;
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  z-index: -1;
+  display: inline-block;
+}
 
-// Import Bulma's core
-@import '../node_modules/bulma/sass/utilities/all';
+.stripes:after {
+  top: 55%;
+}
 
-// Import Bulma and Buefy styles
-@import '../node_modules/bulma';
-@import '../node_modules/buefy/src/scss/buefy';
+.stripes span.bb,
+.divider span.bb {
+  background: #fff;
+  padding: 0 1em;
+  display: inline-block;
+}

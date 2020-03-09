@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../static/style';
+@import '../static/bulmaStyle';
 
 a {
   background-color: $dark;

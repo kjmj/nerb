@@ -13,15 +13,20 @@
             :key="category.title"
             class="column is-half-desktop has-text-centered"
           >
-            <p class="title">{{ category.title }}</p>
-            <p class="subtitle">{{ category.desc }}</p>
+            <p class="is-size-4 stripes">
+              <span class="bb">
+                {{ category.title }}
+              </span>
+            </p>
+            <p class="is-size-6">{{ category.desc }}</p>
+            <br />
             <div class="menuItem">
               <div class="mainLine">
                 <span class="menuColumns"></span>
                 <span
                   v-for="(col, colIndex) in category.menuColumns"
                   :key="colIndex"
-                  class="price"
+                  class="price is-size-6"
                 >
                   {{ col }}</span
                 >
@@ -32,17 +37,17 @@
               :key="menuItem.name"
               class="menuItem"
             >
-              <div class="mainLine">
+              <div class="mainLine is-size-6">
                 <span class="name">{{ menuItem.name }}</span>
                 <span
                   v-for="(price, priceIndex) in menuItem.prices"
                   :key="priceIndex"
-                  class="price"
+                  class="price is-size-6"
                 >
                   {{ price }}
                 </span>
               </div>
-              <div class="itemDescription">
+              <div class="itemDescription is-size-6">
                 {{ menuItem.desc }}
               </div>
             </div>
@@ -67,10 +72,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../static/style.scss';
+
 .menuContainer {
   width: 80%;
   margin-top: -150px;
   background-color: white;
+  z-index: 0;
 }
 
 .mainLine {
@@ -100,8 +108,6 @@ export default {
   flex: 0 0 4em;
 }
 .itemDescription {
-  font-size: 14px;
-  font-weight: 500;
   opacity: 0.8;
   margin-bottom: 10px;
   text-align: left;

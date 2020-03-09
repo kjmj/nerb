@@ -3,8 +3,8 @@
     <div id="about" class="container">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <p class="title">Serving Worcester since 2001</p>
-          <p class="subtitle">Enter a Stranger, leave as a friend</p>
+          <p class="is-size-4">Serving Worcester since 2001</p>
+          <p class="is-size-5">Enter a Stranger, leave as a friend</p>
         </div>
       </div>
 

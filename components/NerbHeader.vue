@@ -6,9 +6,11 @@
           <img src="../static/logo.png" />
         </figure>
 
-        <h2 class="subtitle">
+        <h2 class="is-size-5">
           Serving the best sandwiches in Worcester
         </h2>
+        <br />
+        <br />
 
         <NavMenu></NavMenu>
       </div>

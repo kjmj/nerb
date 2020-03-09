@@ -14,39 +14,12 @@
           </p>
 
           <section class="section">
-            <IconButton
-              icon="facebook"
-              size="is-large"
-              href="https://www.facebook.com/pages/category/Sandwich-Shop/New-England-Roast-Beef-161820853842034/"
-            ></IconButton>
-            <IconButton
-              icon="yelp"
-              size="is-large"
-              href="https://www.yelp.com/biz/new-england-roast-beef-worcester"
-            ></IconButton>
-
-            <a
-              href="https://www.doordash.com/business/160244/?utm_source=partner-link&utm_medium=website&utm_campaign=160244&utm_content=red-m"
-              target="_blank"
-              alt="Order Food Delivery with DoorDash"
-              title="Order Food Delivery with DoorDash"
-              style="text-decoration: none"
-              ><div class="doordash">
-                Order Food Delivery with DoorDash
-              </div>
-            </a>
+            <ButtonBar></ButtonBar>
           </section>
         </div>
 
         <div class="info column is-half-desktop has-text-centered">
-          <figure class="image is-5by4">
-            <iframe
-              class="has-ratio"
-              src="https://maps.google.com/maps?q=New%20England%20Roast%20Beef&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </figure>
+          <NerbMap></NerbMap>
         </div>
       </div>
     </div>
@@ -54,10 +27,11 @@
 </template>
 
 <script>
-import IconButton from './IconButton'
+import ButtonBar from './ButtonBar'
+import NerbMap from './NerbMap'
 export default {
   name: 'NerbInfo',
-  components: { IconButton },
+  components: { NerbMap, ButtonBar },
   data() {
     return {
       hours: [
@@ -93,14 +67,5 @@ export default {
 
 .info {
   padding: 0 30px;
-}
-
-.doordash {
-  position: relative;
-  width: 209px;
-  height: 45px;
-  margin: 0px auto;
-  background-image: url(https://cdn.doordash.com/media/button/button_red_m.svg);
-  color: transparent;
 }
 </style>

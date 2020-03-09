@@ -44,7 +44,5 @@ a {
 
 a:hover {
   color: $primary;
-  box-shadow: 0 0 20px $primary;
-  text-shadow: 0 0 5px $primary;
 }
 </style>

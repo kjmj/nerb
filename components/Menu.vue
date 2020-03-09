@@ -6,47 +6,49 @@
       </div>
     </section>
     <div class="container menuContainer">
-      <div class="columns is-desktop is-multiline">
-        <div
-          v-for="category in menu"
-          :key="category.title"
-          class="menu column is-half-desktop has-text-centered"
-        >
-          <p class="title">{{ category.title }}</p>
-          <p class="subtitle">{{ category.desc }}</p>
-          <div class="menuItem">
-            <div class="mainLine">
-              <span class="menuColumns"></span>
-              <span
-                v-for="(col, colIndex) in category.menuColumns"
-                :key="colIndex"
-                class="price"
-              >
-                {{ col }}</span
-              >
-            </div>
-          </div>
+      <section class="section">
+        <div class="columns is-desktop is-multiline">
           <div
-            v-for="menuItem in category.items"
-            :key="menuItem.name"
-            class="menuItem"
+            v-for="category in menu"
+            :key="category.title"
+            class="column is-half-desktop has-text-centered"
           >
-            <div class="mainLine">
-              <span class="name">{{ menuItem.name }}</span>
-              <span
-                v-for="(price, priceIndex) in menuItem.prices"
-                :key="priceIndex"
-                class="price"
-              >
-                {{ price }}
-              </span>
+            <p class="title">{{ category.title }}</p>
+            <p class="subtitle">{{ category.desc }}</p>
+            <div class="menuItem">
+              <div class="mainLine">
+                <span class="menuColumns"></span>
+                <span
+                  v-for="(col, colIndex) in category.menuColumns"
+                  :key="colIndex"
+                  class="price"
+                >
+                  {{ col }}</span
+                >
+              </div>
             </div>
-            <div class="itemDescription">
-              {{ menuItem.desc }}
+            <div
+              v-for="menuItem in category.items"
+              :key="menuItem.name"
+              class="menuItem"
+            >
+              <div class="mainLine">
+                <span class="name">{{ menuItem.name }}</span>
+                <span
+                  v-for="(price, priceIndex) in menuItem.prices"
+                  :key="priceIndex"
+                  class="price"
+                >
+                  {{ price }}
+                </span>
+              </div>
+              <div class="itemDescription">
+                {{ menuItem.desc }}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 </template>
@@ -69,11 +71,6 @@ export default {
   width: 80%;
   margin-top: -150px;
   background-color: white;
-}
-
-.menu {
-  /*width: 100%;*/
-  padding: 0 30px;
 }
 
 .mainLine {

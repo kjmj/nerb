@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-small is-primary is-bold">
+  <section class="hero is-small">
     <div class="hero-body">
       <div class="container has-text-centered">
         <figure class="image has-image-centered" style="max-width: 300px">
@@ -9,22 +9,22 @@
         <h2 class="subtitle">
           Serving the best sandwiches in Worcester
         </h2>
-        <br />
-        <a v-scroll-to="'#about'" style="color: white">About</a>
-        <a v-scroll-to="'#menuHero'" style="color: white">Menu</a>
-        <a v-scroll-to="'#nerbInfo'" style="color: white">Contact</a>
+
+        <NavMenu></NavMenu>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import NavMenu from './NavMenu'
 export default {
-  name: 'Header'
+  name: 'NerbHeader',
+  components: { NavMenu }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;

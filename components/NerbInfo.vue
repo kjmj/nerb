@@ -1,44 +1,51 @@
 <template>
-  <div id="nerbInfo" class="container nerbInfoContainer">
-    <div class="columns is-desktop is-multiline">
-      <div class="info column is-half-desktop has-text-centered">
-        <p class="title">Location</p>
-        <p>{{ location.address }}</p>
-        <p>{{ location.city }}, {{ location.state }} {{ location.zip }}</p>
-        <p>{{ location.phone }}</p>
+  <section class="section">
+    <div id="nerbInfo" class="container nerbInfoContainer">
+      <div class="columns is-desktop is-multiline">
+        <div class="info column is-half-desktop has-text-centered">
+          <section class="section">
+            <p class="title">Location</p>
+            <p>{{ location.address }}</p>
+            <p>{{ location.city }}, {{ location.state }} {{ location.zip }}</p>
+            <p>{{ location.phone }}</p>
+          </section>
+          <p class="title">Hours</p>
+          <p v-for="(item, index) in hours" :key="index">
+            <b>{{ item.day }}:</b> {{ item.hours }}
+          </p>
 
-        <p class="title">Hours</p>
-        <p v-for="(item, index) in hours" :key="index">
-          <b>{{ item.day }}:</b> {{ item.hours }}
-        </p>
+          <section class="section">
+            <IconButton
+              icon="facebook"
+              size="is-large"
+              href="https://www.facebook.com/pages/category/Sandwich-Shop/New-England-Roast-Beef-161820853842034/"
+            ></IconButton>
+            <IconButton
+              icon="yelp"
+              size="is-large"
+              href="https://www.yelp.com/biz/new-england-roast-beef-worcester"
+            ></IconButton>
 
-        <IconButton
-          icon="facebook"
-          size="is-large"
-          href="https://www.facebook.com/pages/category/Sandwich-Shop/New-England-Roast-Beef-161820853842034/"
-        ></IconButton>
-        <IconButton
-          icon="yelp"
-          size="is-large"
-          href="https://www.yelp.com/biz/new-england-roast-beef-worcester"
-        ></IconButton>
-
-        <a
-          href="https://www.doordash.com/business/160244/?utm_source=partner-link&utm_medium=website&utm_campaign=160244&utm_content=red-m"
-          target="_blank"
-          alt="Order Food Delivery with DoorDash"
-          title="Order Food Delivery with DoorDash"
-          style="text-decoration: none"
-          ><div class="doordash">
-            Order Food Delivery with DoorDash
-          </div>
-        </a>
-      </div>
-      <div class="info column is-half-desktop has-text-centered">
-        <p>Map here</p>
+            <a
+              href="https://www.doordash.com/business/160244/?utm_source=partner-link&utm_medium=website&utm_campaign=160244&utm_content=red-m"
+              target="_blank"
+              alt="Order Food Delivery with DoorDash"
+              title="Order Food Delivery with DoorDash"
+              style="text-decoration: none"
+              ><div class="doordash">
+                Order Food Delivery with DoorDash
+              </div>
+            </a>
+          </section>
+        </div>
+        <div class="info column is-half-desktop has-text-centered">
+          <section class="section">
+            <p>Map here</p>
+          </section>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

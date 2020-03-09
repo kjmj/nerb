@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header></Header>
+    <NerbHeader></NerbHeader>
     <About></About>
     <Menu></Menu>
     <NerbInfo></NerbInfo>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Header from '../Components/Header'
+import NerbHeader from '../components/NerbHeader'
 import About from '../components/About'
 import Menu from '../components/Menu'
 import NerbInfo from '../components/NerbInfo'
@@ -17,6 +17,6 @@ import Footer from '../Components/Footer'
 
 export default {
   name: 'HomePage',
-  components: { Header, About, Menu, NerbInfo, Footer }
+  components: { NerbHeader, About, Menu, NerbInfo, Footer }
 }
 </script>

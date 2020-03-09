@@ -23,8 +23,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../static/bulmaStyle';
-@import '../static/style.scss';
+@import '../../static/bulmaStyle';
+@import '../../static/style';
 
 $duration: 0.2s;
 $distance: 8px;

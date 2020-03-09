@@ -27,8 +27,8 @@
 </template>
 
 <script>
-import ButtonBar from './ButtonBar'
-import NerbMap from './NerbMap'
+import ButtonBar from '../uiElements/ButtonBar'
+import NerbMap from '../uiElements/NerbMap'
 export default {
   name: 'NerbInfo',
   components: { NerbMap, ButtonBar },

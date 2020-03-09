@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../static/style.scss';
+@import '../../static/style';
 
 .menuContainer {
   width: 80%;

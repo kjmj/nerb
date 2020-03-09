@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import NerbHeader from '../components/NerbHeader'
-import NerbCarousel from '../components/NerbCarousel'
-import About from '../components/About'
-import Menu from '../components/Menu'
-import NerbInfo from '../components/NerbInfo'
-import Footer from '../Components/Footer'
+import NerbHeader from '../components/sections/NerbHeader'
+import NerbCarousel from '../components/sections/NerbCarousel'
+import About from '../components/sections/About'
+import Menu from '../components/sections/Menu'
+import NerbInfo from '../components/sections/NerbInfo'
+import Footer from '../components/sections/Footer'
 
 export default {
   name: 'HomePage',

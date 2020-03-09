@@ -188,6 +188,137 @@
           ""
         }
       ]
+    },
+    {
+      "title": "Chicken Fingers",
+      "desc":
+      "Sauces: Cajun Blackened, Sweet Sour, Zesty Orange, Saigon Sizzle, Thai Sweet, Honey Garlic, Mild Buffalo, Hot Buffalo, Suicide Buffalo, Barbeque, Golden Barbeque, Glazed Teriyaki, Jamaican Jerk BBQ, Bourbon, Hot BBQ, Honey Mustard, Boom Boom",
+      "menuColumns": [],
+      "items": [
+        {
+          "name": "Combo",
+          "prices": ["11.49"],
+          "desc": "Served with Beer Battered Fries, Onion Rings & Cole Slaw"
+        },
+        {
+          "name": "Tossed or Caesar Salad",
+          "prices": ["11.99"],
+          "desc": "Includes 3 Sauce-Spun Fingers"
+        },
+        {
+          "name": "Single - 1/2 lb",
+          "prices": ["7.99"],
+          "desc": ""
+        },
+        {
+          "name": "Double - 1 lb",
+          "prices": ["13.99"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Chicken Wings",
+      "desc":
+      "Sauces: Cajun Blackened, Sweet Sour, Zesty Orange, Saigon Sizzle, Thai Sweet, Honey Garlic, Mild Buffalo, Hot Buffalo, Suicide Buffalo, Barbeque, Golden Barbeque, Glazed Teriyaki, Jamaican Jerk BBQ, Bourbon, Hot BBQ, Honey Mustard, Boom Boom",
+      "menuColumns": [],
+      "items": [
+        {
+          "name": "Combo",
+          "prices": ["11.49"],
+          "desc": "Served with Beer Battered Fries, Onion Rings & Cole Slaw"
+        },
+        {
+          "name": "Ace of Staff - 6 Wings",
+          "prices": ["6.79"],
+          "desc": ""
+        },
+        {
+          "name": "Jimmy Fund - 12 Wings",
+          "prices": ["11.99"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "desc":
+      "",
+      "menuColumns": [],
+      "items": [
+        {
+          "name": "Brownie",
+          "prices": ["1.99"],
+          "desc": "Plain / Nut / Cream Cheese"
+        },
+        {
+          "name": "Reese's Peanut Butter Cup Cookie",
+          "prices": ["1.99"],
+          "desc": ""
+        },
+        {
+          "name": "Chocolate Chip Cookie",
+          "prices": ["1.99"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Ball Park Favorites",
+      "desc":
+      "",
+      "menuColumns": ["Sandwich", "Platter", "Dinner"],
+      "items": [
+        {
+          "name": "Steak Tips",
+          "prices": ["15.99", "18.74", "16.99"],
+          "desc": "Dinner includes rice pilaf, small salad and bread"
+        },
+        {
+          "name": "Cuban",
+          "prices": ["9.99", "12.99", "-"],
+          "desc": ""
+        },
+        {
+          "name": "Angus Cheeseburger",
+          "prices": ["7.99", "11.99", "-"],
+          "desc":
+          ""
+        },
+        {
+          "name": "Hot Dog",
+          "prices": ["-", "7.99", "-"],
+          "desc":
+          ""
+        }
+      ]
+    },
+    {
+      "title": "Pasta",
+      "desc":
+      "",
+      "menuColumns": [],
+      "items": [
+        {
+          "name": "Ziti w/ Meatballs & Bread",
+          "prices": ["9.99"],
+          "desc": ""
+        },
+        {
+          "name": "Ziti w/ Chicken Parm & Bread",
+          "prices": ["10.99"],
+          "desc": ""
+        },
+        {
+          "name": "Ziti w/ Eggplant Parm & Bread",
+          "prices": ["11.99"],
+          "desc":
+          ""
+        }
+      ]
     }
   ]
 }

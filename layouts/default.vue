@@ -10,9 +10,9 @@
             Serving the best sandwiches in Worcester
           </h2>
           <br />
-          <a v-scroll-to="'#about'" href="#" style="color: white">About</a>
-          <a v-scroll-to="'#menuHero'" href="#" style="color: white">Menu</a>
-          <a v-scroll-to="'#element'" href="#" style="color: white">Contact</a>
+          <a v-scroll-to="'#about'" style="color: white">About</a>
+          <a v-scroll-to="'#menuHero'" style="color: white">Menu</a>
+          <a v-scroll-to="'#nerbInfo'" style="color: white">Contact</a>
         </div>
       </div>
     </section>
@@ -27,14 +27,5 @@ export default {}
 </script>
 
 <style lang="scss">
-// Change default font
-@import url('https://fonts.googleapis.com/css?family=Lora:400,500&subset=cyrillic');
-$family-sans-serif: 'Lora', sans-serif;
-
-// Import Bulma's core
-@import '~bulma/sass/utilities/_all';
-
-// Import Bulma and Buefy styles
-@import '~bulma';
-@import '~buefy/src/scss/buefy';
+@import '../static/style';
 </style>

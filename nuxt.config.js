@@ -41,8 +41,32 @@ export default {
   modules: [
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
-    'vue-scrollto/nuxt'
+    'vue-scrollto/nuxt',
+    'nuxt-fontawesome'
   ],
+  /*
+   ** Use fontawesome icons in buefy
+   */
+  buefy: {
+    materialDesignIcons: false,
+    defaultIconPack: 'fas',
+    defaultIconComponent: 'font-awesome-icon'
+  },
+  /*
+   ** Fontawesome icon pack setup
+   */
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
+  },
   /*
    ** Build configuration
    */

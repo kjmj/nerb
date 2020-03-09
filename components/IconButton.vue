@@ -1,7 +1,7 @@
 <!--An IconButton component. Has a custom hover effect.-->
 <template>
   <a :href="href" target="_blank">
-    <b-icon :icon="icon" :size="size"></b-icon>
+    <b-icon :pack="pack" :icon="icon" :size="size"></b-icon>
   </a>
 </template>
 
@@ -9,6 +9,10 @@
 export default {
   name: 'IconButton',
   props: {
+    pack: {
+      type: String,
+      default: 'fas'
+    },
     icon: {
       type: String,
       default: 'cursor-default'
@@ -33,12 +37,12 @@ a {
   border-radius: 50%;
   border: none;
   color: $light;
-  padding: 7px;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 4px;
   transition: 0.5s;
 }
 

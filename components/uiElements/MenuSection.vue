@@ -1,12 +1,14 @@
 <!--This class represents a single section in the menu component-->
 <template>
   <div>
-    <p class="is-size-4 stripes">
-      <span class="bb">
-        <b>{{ section.title }}</b>
-      </span>
-    </p>
-    <p class="is-size-6">{{ section.desc }}</p>
+    <div class="has-text-centered">
+      <p class="is-size-4 stripes">
+        <span class="bb">
+          <b>{{ section.title }}</b>
+        </span>
+      </p>
+      <p class="is-size-6">{{ section.desc }}</p>
+    </div>
     <br />
 
     <div class="menuItem">
@@ -84,7 +86,7 @@ export default {
 
 .price {
   text-align: right;
-  flex: 0 0 4em;
+  flex: 0 0 3.5em;
 }
 .itemDescription {
   opacity: 0.8;

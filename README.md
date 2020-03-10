@@ -17,6 +17,10 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+
+# deploy to github pages at https://kjmj.github.io/nerb/
+$ yarn generate:gh-pages
+$ yarn deploy
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

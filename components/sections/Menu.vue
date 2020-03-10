@@ -55,8 +55,7 @@ export default {
   z-index: 0;
 }
 .has-bg-img {
-  background: url('https://shop.guglhupf.com/images/products/kaiser.jpg') center
-    center;
+  background: url('../../static/img/rolls.jpg') center center;
   background-size: cover;
 }
 </style>

@@ -12,11 +12,11 @@
 
       <div id="aboutDescription" class="columns is-centered is-vcentered">
         <div class="column has-text-centered">
-          <img
-            src="https://nerb.publishpath.com/ResizeImage.aspx?m=630&img=%2FWebsites%2Fnerb%2FPhotoGallery%2F1393510%2FDSC_8606.jpg&0"
-            href="Our team"
-            style="height: 300px"
-          />
+          <section class="section">
+            <figure class="image is-16by9">
+              <img src="../../static/img/nerbTeam.jpeg" href="Our team" />
+            </figure>
+          </section>
         </div>
         <div class="column has-text-centered">
           <p>

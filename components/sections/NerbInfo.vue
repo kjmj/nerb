@@ -3,6 +3,9 @@
     <div id="nerbInfo" class="container nerbInfoContainer">
       <div class="columns is-desktop is-multiline">
         <div class="info column is-half-desktop has-text-centered">
+          <p class="is-size-4"><b>Catering</b></p>
+          <p>Please call Cathy at 603.966.6339</p>
+          <br />
           <p class="is-size-4"><b>Location</b></p>
           <p>{{ location.address }}</p>
           <p>{{ location.city }}, {{ location.state }} {{ location.zip }}</p>

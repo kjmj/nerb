@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <figure class="image has-image-centered" style="max-width: 300px">
-          <img src="../../static/logo.png" />
+          <img src="../../static/img/logo.png" />
         </figure>
 
         <h2 class="is-size-5">

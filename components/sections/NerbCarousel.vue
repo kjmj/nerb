@@ -1,5 +1,5 @@
 <template>
-  <b-carousel :pause-info="false" :autoplay="false">
+  <b-carousel :pause-info="false">
     <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
       <section
         class="hero is-primary is-medium"
@@ -8,15 +8,19 @@
           'background-size': 'cover'
         }"
       >
-        <div class="hero-body">
-          <div
-            class="container has-text-centered"
-            style="height: 100px; vertical-align: top"
-          >
+        <div class="hero-body darkenBackground">
+          <div class="container has-text-centered">
             <p class="is-size-1 is-size-3-mobile">
               {{ carousel.title }}
             </p>
             <p class="is-size-4 is-size-6-mobile">{{ carousel.desc }}</p>
+            <br />
+            <b-button
+              v-scroll-to="carousel.scrollToID"
+              type="is-primary"
+              size="is-medium"
+              >{{ carousel.buttonText }}</b-button
+            >
           </div>
         </div>
       </section>
@@ -31,24 +35,25 @@ export default {
     return {
       carousels: [
         {
-          title: 'Texas Chicken Melt',
-          desc:
-            'Grilled chicken onion,peppers, mushrooms BBQ sauce, American Cheese',
-          image:
-            'http://nerb.publishpath.com/ResizeImage.aspx?m=630&img=%2fWebsites%2fnerb%2fPhotoGallery%2f1393510%2fDSC_8634.jpg&0'
+          title: 'Best Roast Beef in Worcester',
+          desc: 'Tender, flavorful, and fresh',
+          image: './img/roastBeefSandwich.jpg',
+          buttonText: 'View Our Menu',
+          scrollToID: '#menuHero'
         },
         {
-          title: 'Lobster Pita',
-          desc: '100% Lobster Meat w/ lettuce, tomato on warm pita bread',
-          image:
-            'http://nerb.publishpath.com/ResizeImage.aspx?m=630&img=%2fWebsites%2fnerb%2fPhotoGallery%2f1393510%2fDSC_8568.jpg&0'
+          title: 'Catering',
+          desc: 'We want to cater your next event',
+          image: './img/catering.jpg',
+          buttonText: 'View Catering Info',
+          scrollToID: '#nerbInfo'
         },
         {
-          title: 'Chicken Bomb',
-          desc:
-            'Grilled Chicken w/ mushrooms, onion, peppers, jalapenos, American cheese',
-          image:
-            'http://nerb.publishpath.com/ResizeImage.aspx?m=630&img=%2fWebsites%2fnerb%2fPhotoGallery%2f1393510%2fDSC_8537.jpg&0'
+          title: 'Fresh Fish & Chips',
+          desc: 'Only on Friday',
+          image: './img/fishAndChips.jpg',
+          buttonText: 'View Our Menu',
+          scrollToID: '#menuHero'
         }
       ]
     }
@@ -56,4 +61,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.darkenBackground {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+</style>

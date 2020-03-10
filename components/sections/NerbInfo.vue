@@ -19,10 +19,8 @@
         <p v-for="(item, index) in hours" :key="index">
           <b>{{ item.day }}:</b> {{ item.hours }}
         </p>
-
-        <section class="section">
-          <ButtonBar></ButtonBar>
-        </section>
+        <br />
+        <ButtonBar></ButtonBar>
       </div>
 
       <div class="info column is-half-desktop has-text-centered">

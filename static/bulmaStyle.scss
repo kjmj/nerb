@@ -1,7 +1,8 @@
-// Change default font
+// Change some bulma defaults
 @import url('https://fonts.googleapis.com/css?family=Lora:400,500&subset=cyrillic');
 $family-sans-serif: 'Lora', sans-serif;
-
+$primary: #cd3f4c;
+$link: $primary;
 
 // Import Bulma's core
 @import '../node_modules/bulma/sass/utilities/all';

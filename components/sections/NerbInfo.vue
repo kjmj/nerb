@@ -1,32 +1,35 @@
 <template>
-  <section class="section">
-    <div id="nerbInfo" class="container nerbInfoContainer">
-      <div class="columns is-desktop is-multiline">
-        <div class="info column is-half-desktop has-text-centered">
-          <p class="is-size-4"><b>Catering</b></p>
-          <p>Please call Cathy at 603.966.6339</p>
-          <br />
-          <p class="is-size-4"><b>Location</b></p>
-          <p>{{ location.address }}</p>
-          <p>{{ location.city }}, {{ location.state }} {{ location.zip }}</p>
-          <p>{{ location.phone }}</p>
-          <br />
-          <p class="is-size-4"><b>Hours</b></p>
-          <p v-for="(item, index) in hours" :key="index">
-            <b>{{ item.day }}:</b> {{ item.hours }}
-          </p>
+  <div id="nerbInfo" class="container nerbInfoContainer has-text-centered">
+    <p class="is-size-3 stripes">
+      <span class="bb">Get in Touch</span>
+    </p>
+    <br />
+    <br />
+    <div class="columns is-desktop is-multiline">
+      <div class="info column is-half-desktop">
+        <p class="is-size-4"><b>Catering</b></p>
+        <p>Please call Cathy at 603.966.6339</p>
+        <br />
+        <p class="is-size-4"><b>Location</b></p>
+        <p>{{ location.address }}</p>
+        <p>{{ location.city }}, {{ location.state }} {{ location.zip }}</p>
+        <p>{{ location.phone }}</p>
+        <br />
+        <p class="is-size-4"><b>Hours</b></p>
+        <p v-for="(item, index) in hours" :key="index">
+          <b>{{ item.day }}:</b> {{ item.hours }}
+        </p>
 
-          <section class="section">
-            <ButtonBar></ButtonBar>
-          </section>
-        </div>
+        <section class="section">
+          <ButtonBar></ButtonBar>
+        </section>
+      </div>
 
-        <div class="info column is-half-desktop has-text-centered">
-          <NerbMap></NerbMap>
-        </div>
+      <div class="info column is-half-desktop has-text-centered">
+        <NerbMap></NerbMap>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -63,7 +66,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../../static/style';
 .nerbInfoContainer {
   width: 80%;
 }

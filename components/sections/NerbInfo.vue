@@ -21,6 +21,7 @@
         </p>
         <br />
         <ButtonBar></ButtonBar>
+        <br />
       </div>
 
       <div class="info column is-half-desktop has-text-centered">

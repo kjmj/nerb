@@ -3,7 +3,9 @@
     <div id="about" class="container">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <p class="is-size-4">Serving Worcester since 2001</p>
+          <p class="is-size-3 stripes">
+            <span class="bb"><b>Serving Worcester since 2001</b></span>
+          </p>
           <p class="is-size-5">Enter a Stranger, leave as a friend</p>
         </div>
       </div>
@@ -44,4 +46,6 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+@import '../../static/style';
+</style>

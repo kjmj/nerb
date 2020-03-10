@@ -3,12 +3,12 @@
     <div id="nerbInfo" class="container nerbInfoContainer">
       <div class="columns is-desktop is-multiline">
         <div class="info column is-half-desktop has-text-centered">
-          <p class="is-size-4">Location</p>
+          <p class="is-size-4"><b>Location</b></p>
           <p>{{ location.address }}</p>
           <p>{{ location.city }}, {{ location.state }} {{ location.zip }}</p>
           <p>{{ location.phone }}</p>
           <br />
-          <p class="is-size-4">Hours</p>
+          <p class="is-size-4"><b>Hours</b></p>
           <p v-for="(item, index) in hours" :key="index">
             <b>{{ item.day }}:</b> {{ item.hours }}
           </p>

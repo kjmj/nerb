@@ -13,10 +13,10 @@
             class="container has-text-centered"
             style="height: 100px; vertical-align: top"
           >
-            <p class="is-size-1">
+            <p class="is-size-1 is-size-3-mobile">
               {{ carousel.title }}
             </p>
-            <p class="is-size-4">{{ carousel.desc }}</p>
+            <p class="is-size-4 is-size-6-mobile">{{ carousel.desc }}</p>
           </div>
         </div>
       </section>

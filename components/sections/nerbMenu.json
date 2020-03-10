@@ -1,6 +1,7 @@
 {
-  "menu": [
-    {
+  "menu": {
+    "firstHalf": [
+      {
       "title": "Specialty Sandwiches",
       "desc":
       "New England Roast Beef's Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes fries, onion rings and cole slaw.",
@@ -12,313 +13,901 @@
           "desc": "Jalapenos, onions, peppers, mushrooms, American cheese"
         },
         {
-          "name": " Original Philly Beef Cheese Steak",
+          "name": "Original Philly Beef Cheese Steak",
           "prices": ["9.99"],
           "desc": "Onions, peppers & American cheese"
-        }
-      ]
-    },
-    {
-      "title": "Chicken Specialty Sandwiches",
-      "desc":
-      "New England Roast Beef's Chicken Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00 beer battered  fries, beer battered onion rings and cole slaw.",
-      "menuColumns": [],
-      "items": [
+        },
         {
-          "name": "BBQ Chicken",
+          "name": "The Assumption",
           "prices": ["9.99"],
-          "desc": "White Chicken marinated BBQ sauce, lettuce & tomatoes"
+          "desc": "Roast beef, American cheese, tomatoes, onions & Russian dressing"
         },
         {
-          "name": "Buffalo Chicken",
+          "name": "The Becker",
           "prices": ["9.99"],
-          "desc":
-          "Grilled white chicken with buffalo sauce, lettuce, tomatoes & bleu cheese"
-        }
-      ]
-    },
-    {
-      "title": "Hot Sandwiches",
-      "desc":
-      "Complimentary Condiments: Lettuce, Tomatoes, Onions, Pickles, BBQ Sauce, Buffalo Sauce, Horseradish, Mayo, Mustard & Ketchup. Bacon - 50¢ extra • Cheese 25¢ extra. Platters are served with Cole Slaw, Beer Battered Fries & Beer Battered Onion Rings.",
-      "menuColumns": ["Sandwich", "Platter"],
-      "items": [
-        {
-          "name": "Super Beef",
-          "prices": ["8.49", "12.49"],
-          "desc": "6oz Roast Beef on Onion Roll"
+          "desc": "Turkey, roast beef, American cheese, lettuce, tomatoes & peppercorn dressing"
         },
         {
-          "name": "Large Beef",
-          "prices": ["7.99", "11.99"],
-          "desc":
-          "5oz Roast Beef on Sesame Roll"
-        }
-      ]
-    },
-    {
-      "title": "From The Sea",
-      "desc":
-      "",
-      "menuColumns": ["Sandwich", "Platter"],
-      "items": [
-        {
-          "name": "Fish & Chips",
-          "prices": ["-", "11.69"],
-          "desc": "11oz beer battered haddock, fries, onion rings, & cole slaw"
-        },
-        {
-          "name": "Fried Scallops",
-          "prices": ["-", "15.99"],
-          "desc":
-          "Beer battered Scallops fries, onion rings & cole slaw"
-        }
-      ]
-    },
-    {
-      "title": "Traditional Sandwiches",
-      "desc":
-      "New England Roast Beef's Traditional Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes beer battered fries,beer battered onion rings and cole slaw. All sandwiches include lettuce, tomato, pickle, onion, cheese, mayo & mustard.",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "Grilled Chicken",
+          "name": "The Cross Crusader",
           "prices": ["9.99"],
-          "desc": ""
+          "desc": "Roast beef, bacon, lettuce, tomatoes, mayo & American cheese"
         },
         {
-          "name": "Chicken Salad",
+          "name": "The Clark",
           "prices": ["9.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Paninis",
-      "desc":
-      "",
-      "menuColumns": [],
-      "items": [
+          "desc": "Turkey, Swiss cheese, cole slaw & Russian dressing"
+        },
         {
-          "name": "Tuna",
+          "name": "The Quinsig",
           "prices": ["9.99"],
-          "desc": "White Tuna w/ tomato, onion & American cheese"
+          "desc": "Roast beef, ham, cheddar, lettuce, tomatoes, mustard"
         },
         {
-          "name": "Italian",
+          "name": "The WPI",
           "prices": ["9.99"],
-          "desc":
-          "Cold Cuts w/ tomato, onion, pickle, hots, Italian dressing & provolone cheese"
-        }
-      ]
-    },
-    {
-      "title": "Soups",
-      "desc":
-      "Our delicious soups are homemade daily.",
-      "menuColumns": ["Cup", "Bowl", "Pint", "Quart"],
-      "items": [
-        {
-          "name": "Clam Chowder",
-          "prices": ["4.99", "5.49", "6.49", "11.99"],
-          "desc": ""
+          "desc": "Roast beef, American cheese, tomatoes, onions, horseradish"
         },
         {
-          "name": "Chicken Rice",
-          "prices": ["3.99", "4.49", "5.49", "9.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Salads",
-      "desc":
-      "Dressing Choices: Greek, Caesar, Balsamic, Italian, Russian, Ranch, Raspberry Vinaigrette, Bleu Cheese, Peppercorn, Lite Italian, Poppy Seed. Extra Dressing - 50¢.",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "Small Salad",
-          "prices": ["4.00"],
-          "desc": ""
+          "name": "The State",
+          "prices": ["9.99"],
+          "desc": "All white chicken salad, bacon, lettuce & tomatoes"
         },
         {
-          "name": "Tossed",
-          "prices": ["6.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Appetizers",
-      "desc":
-      "",
-      "menuColumns": ["Individual", "Large", "Jumbo"],
-      "items": [
-        {
-          "name": "Beer Battered Fries",
-          "prices": ["3.59", "3.99", "6.29"],
-          "desc": ""
+          "name": "The Boynton",
+          "prices": ["9.99"],
+          "desc": "Roast beef, bleu cheese, lettuce & tomatoes"
         },
         {
-          "name": "Beer Battered Onion Rings",
-          "prices": ["4.39", "6.19", "12.69"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Kids Menu",
-      "desc":
-      "",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "2 Chicken Fingers & Fries",
-          "prices": ["5.99"],
-          "desc": ""
+          "name": "The Chandler",
+          "prices": ["9.99"],
+          "desc": "Smoked turkey, Swiss cheese, lettuce, tomatoes & mayo"
         },
         {
-          "name": "Ham Roll",
-          "prices": ["5.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Chicken Fingers",
-      "desc":
-      "Sauces: Cajun Blackened, Sweet Sour, Zesty Orange, Saigon Sizzle, Thai Sweet, Honey Garlic, Mild Buffalo, Hot Buffalo, Suicide Buffalo, Barbeque, Golden Barbeque, Glazed Teriyaki, Jamaican Jerk BBQ, Bourbon, Hot BBQ, Honey Mustard, Boom Boom",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "Combo",
-          "prices": ["11.49"],
-          "desc": "Served with Beer Battered Fries, Onion Rings & Cole Slaw"
+          "name": "The Elm Park",
+          "prices": ["9.99"],
+          "desc": "Roast beef, turkey, bacon, Swiss cheese, lettuce, tomatoes & mayo"
         },
         {
-          "name": "Tossed or Caesar Salad",
-          "prices": ["11.99"],
-          "desc": "Includes 3 Sauce-Spun Fingers"
+          "name": "The Forrest",
+          "prices": ["9.99"],
+          "desc": "Grilled onions, peppers, mushrooms, tomatoes, Swiss & American cheese"
         },
         {
-          "name": "Single - 1/2 lb",
-          "prices": ["7.99"],
-          "desc": ""
+          "name": "The Gold Star",
+          "prices": ["9.99"],
+          "desc": "Roast beef, American cheese, lettuce, tomatoes & mayo"
         },
         {
-          "name": "Double - 1 lb",
-          "prices": ["13.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Chicken Wings",
-      "desc":
-      "Sauces: Cajun Blackened, Sweet Sour, Zesty Orange, Saigon Sizzle, Thai Sweet, Honey Garlic, Mild Buffalo, Hot Buffalo, Suicide Buffalo, Barbeque, Golden Barbeque, Glazed Teriyaki, Jamaican Jerk BBQ, Bourbon, Hot BBQ, Honey Mustard, Boom Boom",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "Combo",
-          "prices": ["11.49"],
-          "desc": "Served with Beer Battered Fries, Onion Rings & Cole Slaw"
+          "name": "The Highlander",
+          "prices": ["9.99"],
+          "desc": "Ham, turkey, roast beef, Swiss cheese, onions & Russian dressing"
         },
         {
-          "name": "Ace of Staff - 6 Wings",
-          "prices": ["6.79"],
-          "desc": ""
+          "name": "The Mountain",
+          "prices": ["9.99"],
+          "desc": "Shaved steak, grilled onions, peppers, mushrooms, American cheese"
         },
         {
-          "name": "Jimmy Fund - 12 Wings",
-          "prices": ["11.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Desserts",
-      "desc":
-      "",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "Brownie",
-          "prices": ["1.99"],
-          "desc": "Plain / Nut / Cream Cheese"
+          "name": "The Pleasant",
+          "prices": ["9.99"],
+          "desc": "All white tuna, lettuce, tomatoes, onions & Swiss cheese"
         },
         {
-          "name": "Reese's Peanut Butter Cup Cookie",
-          "prices": ["1.99"],
-          "desc": ""
+          "name": "The Park Ave",
+          "prices": ["9.99"],
+          "desc": "Ham, Swiss cheese, mayo, lettuce, tomatoes, onions & peppers"
         },
         {
-          "name": "Chocolate Chip Cookie",
-          "prices": ["1.99"],
-          "desc":
-          ""
-        }
-      ]
-    },
-    {
-      "title": "Ball Park Favorites",
-      "desc":
-      "",
-      "menuColumns": ["Sandwich", "Platter", "Dinner"],
-      "items": [
+          "name": "The Richmond",
+          "prices": ["9.99"],
+          "desc": "Smoked pastrami, mustard, Swiss cheese & a bit of cole slaw"
+        },
         {
-          "name": "Steak Tips",
-          "prices": ["15.99", "18.74", "16.99"],
-          "desc": "Dinner includes rice pilaf, small salad and bread"
+          "name": "The Russell",
+          "prices": ["9.99"],
+          "desc": "Roast beef, horseradish, Swiss cheese, lettuce, tomatoes & bacon"
+        },
+        {
+          "name": "The Salisbury",
+          "prices": ["9.99"],
+          "desc": "Turkey, melted cheddar, bacon, onions & Russian dressing"
+        },
+        {
+          "name": "The South",
+          "prices": ["9.99"],
+          "desc": "Roast beef grilled with bbq sauce, American cheese & a bit of cole slaw"
+        },
+        {
+          "name": "The West Boylston",
+          "prices": ["9.99"],
+          "desc": "Roast beef grilled with bbq sauce"
+        },
+        {
+          "name": "The UMass",
+          "prices": ["9.99"],
+          "desc": "Turkey, ham, bacon, Swiss cheese, mayo, lettuce, tomatoes & onions"
+        },
+        {
+          "name": "The Godfather",
+          "prices": ["9.99"],
+          "desc": "Italian cold cuts, provolone cheese, lettuce, tomatoes, onions, pickles, hots, Italian dressing"
+        },
+        {
+          "name": "Gyro",
+          "prices": ["9.99"],
+          "desc": "Grilled meat with tzaziki sauce, tomatoes & onions on pita bread"
         },
         {
           "name": "Cuban",
-          "prices": ["9.99", "12.99", "-"],
-          "desc": ""
+          "prices": ["9.99"],
+          "desc": "Grilled pork and ham, pickles, mustard and Swiss cheese"
         },
         {
-          "name": "Angus Cheeseburger",
-          "prices": ["7.99", "11.99", "-"],
-          "desc":
-          ""
+          "name": "Rueben",
+          "prices": ["9.99"],
+          "desc": "Grilled corned beef, sauerkraut, Swiss cheese, Russian dressing, onions grilled on sliced light or dark rye"
         },
         {
-          "name": "Hot Dog",
-          "prices": ["-", "7.99", "-"],
-          "desc":
-          ""
+          "name": "Buffalo Blue Cheese Steak",
+          "prices": ["9.99"],
+          "desc": "Grilled steak buffalo blu cheese  dressing and american cheese"
+        },
+        {
+          "name": "Pulled Pork",
+          "prices": ["9.99"],
+          "desc": "with BBQ sauce, served on onion roll"
+        },
+        {
+          "name": "Porky Piglet",
+          "prices": ["9.99"],
+          "desc": "Pulled pork, BBQ sauce, cole slaw on sesame roll"
+        },
+        {
+          "name": "Gobbler",
+          "prices": ["9.99"],
+          "desc": "Grilled turkey, homemade stuffing and cranberry sauce"
+        },
+        {
+          "name": "Captain Z",
+          "prices": ["9.99"],
+          "desc": "Haddock on an onion roll with horseradish, lettuce and tomato"
+        },
+        {
+          "name": "Texas Steak",
+          "prices": ["9.99"],
+          "desc": "Grilled steak with mushrooms, onion, peppers and BBQ sauce"
+        },
+        {
+          "name": "Lobster Roll",
+          "prices": ["10.99"],
+          "desc": "100% Lobster Meat on a toasted brioche roll"
         }
       ]
     },
-    {
-      "title": "Pasta",
-      "desc":
-      "",
-      "menuColumns": [],
-      "items": [
-        {
-          "name": "Ziti w/ Meatballs & Bread",
-          "prices": ["9.99"],
-          "desc": ""
-        },
-        {
-          "name": "Ziti w/ Chicken Parm & Bread",
-          "prices": ["10.99"],
-          "desc": ""
-        },
-        {
-          "name": "Ziti w/ Eggplant Parm & Bread",
-          "prices": ["11.99"],
-          "desc":
-          ""
-        }
-      ]
-    }
-  ]
+      {
+        "title": "From The Sea",
+        "desc":
+        "",
+        "menuColumns": ["Sandwich", "Platter"],
+        "items": [
+          {
+            "name": "Fish & Chips",
+            "prices": ["-", "11.69"],
+            "desc": "11oz beer battered haddock, fries, onion rings, & cole slaw"
+          },
+          {
+            "name": "Fried Scallops",
+            "prices": ["-", "15.99"],
+            "desc":
+            "Beer battered Scallops fries, onion rings & cole slaw"
+          },
+          {
+            "name": "Fried Clam Strips",
+            "prices": ["-", "12.99"],
+            "desc":
+            "Beer battered Clams fries, onion rings & cole slaw"
+          },
+          {
+            "name": "Fried Shrimp",
+            "prices": ["", "14.99"],
+            "desc":
+            "Beer battered Shrimp  fries, onion rings & cole slaw"
+          },
+          {
+            "name": "Big Bill's Belly Buster",
+            "prices": ["9.99", "12.99"],
+            "desc":
+            "10oz Haddock, Lettuce, tomato & tartar sauce"
+          },
+          {
+            "name": "Cape Codder",
+            "prices": ["9.99", "12.99"],
+            "desc":
+            "8oz Haddock, Sesame roll, lettuce, tomato & tartar sauce"
+          },
+          {
+            "name": "Lobster Roll",
+            "prices": ["12.99", "-"],
+            "desc":
+            "On a toasted Hot Dog Roll"
+          },
+          {
+            "name": "Fried Clam Strip Roll",
+            "prices": ["9.99", "12.99"],
+            "desc":
+            "Beer battered clams on a roll"
+          },
+          {
+            "name": "Scallop Roll",
+            "prices": ["10.99", "14.74"],
+            "desc":
+            "Beer battered scallops on a roll"
+          },
+          {
+            "name": "Seafood Salad",
+            "prices": ["8.79", "12.54"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Captain Nerb",
+            "prices": ["9.99", "12.99"],
+            "desc":
+            "8oz Haddock with lettuce, tomato, tartar sauce on warm pita"
+          }
+        ]
+      },
+      {
+        "title": "Appetizers",
+        "desc":
+        "",
+        "menuColumns": ["Individual", "Large", "Jumbo"],
+        "items": [
+          {
+            "name": "Beer Battered Fries",
+            "prices": ["3.59", "3.99", "6.29"],
+            "desc": ""
+          },
+          {
+            "name": "Beer Battered Onion Rings",
+            "prices": ["4.39", "6.19", "12.69"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "prices": ["4.99", "7.99", "-"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Mac 'n Cheese Bites",
+            "prices": ["4.99", "7.99", "-"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Soups",
+        "desc":
+        "Our delicious soups are homemade daily.",
+        "menuColumns": ["Cup", "Bowl", "Pint", "Quart"],
+        "items": [
+          {
+            "name": "Clam Chowder",
+            "prices": ["4.99", "5.49", "6.49", "11.99"],
+            "desc": ""
+          },
+          {
+            "name": "Chicken Rice",
+            "prices": ["3.99", "4.49", "5.49", "9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Chili",
+            "prices": ["4.39", "4.99", "6.49", "11.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Soup of the Day",
+            "prices": ["3.99", "4.49", "5.49", "9.99"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Salads",
+        "desc":
+        "Dressing Choices: Greek, Caesar, Balsamic, Italian, Russian, Ranch, Raspberry Vinaigrette, Bleu Cheese, Peppercorn, Lite Italian, Poppy Seed. Extra Dressing - 50¢.",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Small Salad",
+            "prices": ["4.00"],
+            "desc": ""
+          },
+          {
+            "name": "Tossed",
+            "prices": ["6.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Greek",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Grecian Salad",
+            "prices": ["11.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Chef",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Turkey & Cheese",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Ham & Cheese",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Lobster Salad",
+            "prices": ["17.99"],
+            "desc":
+            "With 100% Lobster Meat"
+          },
+          {
+            "name": "Seafood Salad",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "White Tuna",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "White Chicken Salad",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Grilled Chicken",
+            "prices": ["10.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Caesar",
+            "prices": ["8.49"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Chicken Caesar",
+            "prices": ["11.49"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Steak Tip Salad",
+            "prices": ["15.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Cranberry Walnut Chicken Salad",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Roast Beef & Cheese Salad",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Kids Menu",
+        "desc":
+        "",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "2 Chicken Fingers & Fries",
+            "prices": ["5.99"],
+            "desc": ""
+          },
+          {
+            "name": "Ham Roll",
+            "prices": ["5.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Chicken Salad",
+            "prices": ["5.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Chicken Finger Roll",
+            "prices": ["5.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Tuna Roll",
+            "prices": ["5.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Turkey Roll",
+            "prices": ["5.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Hot Dog & Fries",
+            "prices": ["5.99"],
+            "desc":
+            ""
+          }
+        ]
+      }
+    ],
+    "secondHalf": [
+      {
+        "title": "Chicken Specialty Sandwiches",
+        "desc":
+        "New England Roast Beef's Chicken Specialty Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00 beer battered  fries, beer battered onion rings and cole slaw.",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "BBQ Chicken",
+            "prices": ["9.99"],
+            "desc": "White Chicken marinated BBQ sauce, lettuce & tomatoes"
+          },
+          {
+            "name": "Buffalo Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled white chicken with buffalo sauce, lettuce, tomatoes & bleu cheese"
+          },
+          {
+            "name": "Deluxe Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled white chicken, bacon, American cheese, lettuce, tomatoes & mayo"
+          },
+          {
+            "name": "Fajita Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled white chicken with fajita sauce, onions, cheddar cheese, peppers & tomatoes"
+          },
+          {
+            "name": "Grecian Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled chicken topped with feta cheese, Greek dressing, tomatoes & onions\n\n\n"
+          },
+          {
+            "name": "Jalapeno Pepper Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Jalapenos grilled with chicken, topped with American cheese, mayo, lettuce & tomatoes"
+          },
+          {
+            "name": "Malibu Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled white chicken, ham, swiss cheese, creamy house dressing, lettuce, tomatoes & onions"
+          },
+          {
+            "name": "Marsala Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled white chicken with mushrooms, onions & Marsala wine"
+          },
+          {
+            "name": "Southern Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled white chicken, ham, bacon, ranch dressing, American cheese, lettuce & tomatoes"
+          },
+          {
+            "name": "Sweet & Sour Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Onions and peppers grilled with white chicken in a sweet & sour sauce"
+          },
+          {
+            "name": "Stir Fry Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled chicken with onions, peppers, mushrooms & tomatoes & stir fry sauce"
+          },
+          {
+            "name": "Chicken Souvlaki",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled chicken, tzaziki sauce, tomatoes, onions on warm pita bread"
+          },
+          {
+            "name": "Mediterranean Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled chicken, feta cheese, tomatoes, onions, cucumber, Kalamata olives, and Greek dressing on a warm pita bread"
+          },
+          {
+            "name": "Boom Boom Chicken",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled chicken with lettuce,mushrooms,onions,swiss cheese&boom boom sauce"
+          }
+        ]
+      },
+      {
+        "title": "Hot Sandwiches",
+        "desc":
+        "Complimentary Condiments: Lettuce, Tomatoes, Onions, Pickles, BBQ Sauce, Buffalo Sauce, Horseradish, Mayo, Mustard & Ketchup. Bacon - 50¢ extra • Cheese 25¢ extra. Platters are served with Cole Slaw, Beer Battered Fries & Beer Battered Onion Rings.",
+        "menuColumns": ["Sandwich", "Platter"],
+        "items": [
+          {
+            "name": "Super Beef",
+            "prices": ["8.49", "12.49"],
+            "desc": "6oz Roast Beef on Onion Roll"
+          },
+          {
+            "name": "Large Beef",
+            "prices": ["7.99", "11.99"],
+            "desc":
+            "5oz Roast Beef on Sesame Roll"
+          },
+          {
+            "name": "Junior Beef",
+            "prices": ["6.99", "10.49"],
+            "desc":
+            "4oz Roast Beef on Plain Roll"
+          },
+          {
+            "name": "Super Pastrami",
+            "prices": ["8.49", "12.49"],
+            "desc":
+            "6oz Pastrami on Onion Roll"
+          },
+          {
+            "name": "Large Pastrami",
+            "prices": ["7.99", "11.99"],
+            "desc":
+            "5oz Pastrami on Sesame Roll"
+          },
+          {
+            "name": "Junior Pastrami",
+            "prices": ["6.99", "10.49"],
+            "desc":
+            "4oz Pastrami on Plain Roll "
+          }
+        ]
+      },
+      {
+        "title": "Traditional Sandwiches",
+        "desc":
+        "New England Roast Beef's Traditional Sandwiches are available on the following bread: french white, french wheat, white wrap, wheat wrap,spinach wrap, sliced wheat, sliced light rye, sliced dark rye and pita bread. Make any sandwich a combo meal for $4.00, includes beer battered fries,beer battered onion rings and cole slaw. All sandwiches include lettuce, tomato, pickle, onion, cheese, mayo & mustard.",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Grilled Chicken",
+            "prices": ["9.99"],
+            "desc": ""
+          },
+          {
+            "name": "Chicken Salad",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Tuna",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Roast Beef",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Steak",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Pastrami",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Turkey",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Turkey & Roast Beef",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Corned Beef",
+            "prices": ["9.99"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Paninis",
+        "desc":
+        "",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Tuna",
+            "prices": ["9.99"],
+            "desc": "White Tuna w/ tomato, onion & American cheese"
+          },
+          {
+            "name": "Italian",
+            "prices": ["9.99"],
+            "desc":
+            "Cold Cuts w/ tomato, onion, pickle, hots, Italian dressing & provolone cheese"
+          },
+          {
+            "name": "Chicken Roma",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled Chicken, oven-roasted tomatoes, baby spinach & feta cheese"
+          },
+          {
+            "name": "Chicken Pesto",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled Chicken, pesto, sundried tomatoes, baby spinach & Swiss cheese"
+          },
+          {
+            "name": "Aegean",
+            "prices": ["9.99"],
+            "desc":
+            "Grilled Chicken, Calamata olives, baby spinach & feta cheese"
+          },
+          {
+            "name": "Eggplant Parm or Chicken Parm",
+            "prices": ["9.99"],
+            "desc":
+            "Marinara sauce, provolone & parmesan cheese"
+          },
+          {
+            "name": "Meatball",
+            "prices": ["9.99"],
+            "desc":
+            "Marinara sauce, grilled onion, peppers, provolone and parmesan cheese"
+          }
+        ]
+      },
+      {
+        "title": "Chicken Fingers",
+        "desc":
+        "Sauces: Cajun Blackened, Sweet Sour, Zesty Orange, Saigon Sizzle, Thai Sweet, Honey Garlic, Mild Buffalo, Hot Buffalo, Suicide Buffalo, Barbeque, Golden Barbeque, Glazed Teriyaki, Jamaican Jerk BBQ, Bourbon, Hot BBQ, Honey Mustard, Boom Boom",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Combo",
+            "prices": ["11.49"],
+            "desc": "Served with Beer Battered Fries, Onion Rings & Cole Slaw"
+          },
+          {
+            "name": "Tossed or Caesar Salad",
+            "prices": ["11.99"],
+            "desc": "Includes 3 Sauce-Spun Fingers"
+          },
+          {
+            "name": "Single - 1/2 lb",
+            "prices": ["7.99"],
+            "desc": ""
+          },
+          {
+            "name": "Double - 1 lb",
+            "prices": ["13.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Triple - 1 1/2 lb",
+            "prices": ["21.49"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Homerun - 2 lb",
+            "prices": ["25.49"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Grand Slam - 3 lb",
+            "prices": ["36.69"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Opening Day - 4 lb",
+            "prices": ["49.19"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Big Papi - 6 lb",
+            "prices": ["69.19"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Chicken Wings",
+        "desc":
+        "Sauces: Cajun Blackened, Sweet Sour, Zesty Orange, Saigon Sizzle, Thai Sweet, Honey Garlic, Mild Buffalo, Hot Buffalo, Suicide Buffalo, Barbeque, Golden Barbeque, Glazed Teriyaki, Jamaican Jerk BBQ, Bourbon, Hot BBQ, Honey Mustard, Boom Boom",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Combo",
+            "prices": ["11.49"],
+            "desc": "Served with Beer Battered Fries, Onion Rings & Cole Slaw"
+          },
+          {
+            "name": "Ace of Staff - 6 Wings",
+            "prices": ["6.79"],
+            "desc": ""
+          },
+          {
+            "name": "Jimmy Fund - 12 Wings",
+            "prices": ["11.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Suicide Squeeze - 20 Wings",
+            "prices": ["20.29"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Yankee Hater - 35 Wings",
+            "prices": ["33.49"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Wild Pitch - 60 Wings",
+            "prices": ["48.99"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Closer - 120 Wings",
+            "prices": ["83.99"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Ball Park Favorites",
+        "desc":
+        "",
+        "menuColumns": ["Sandwich", "Platter", "Dinner"],
+        "items": [
+          {
+            "name": "Steak Tips",
+            "prices": ["15.99", "18.74", "16.99"],
+            "desc": "Dinner includes rice pilaf, small salad and bread"
+          },
+          {
+            "name": "Cuban",
+            "prices": ["9.99", "12.99", "-"],
+            "desc": ""
+          },
+          {
+            "name": "Angus Cheeseburger",
+            "prices": ["7.99", "11.99", "-"],
+            "desc":
+            ""
+          },
+          {
+            "name": "Hot Dog",
+            "prices": ["-", "7.99", "-"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Pasta",
+        "desc":
+        "",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Ziti w/ Meatballs & Bread",
+            "prices": ["9.99"],
+            "desc": ""
+          },
+          {
+            "name": "Ziti w/ Chicken Parm & Bread",
+            "prices": ["10.99"],
+            "desc": ""
+          },
+          {
+            "name": "Ziti w/ Eggplant Parm & Bread",
+            "prices": ["11.99"],
+            "desc":
+            ""
+          }
+        ]
+      },
+      {
+        "title": "Desserts",
+        "desc":
+        "",
+        "menuColumns": [],
+        "items": [
+          {
+            "name": "Brownie",
+            "prices": ["1.99"],
+            "desc": "Plain / Nut / Cream Cheese"
+          },
+          {
+            "name": "Reese's Peanut Butter Cup Cookie",
+            "prices": ["1.99"],
+            "desc": ""
+          },
+          {
+            "name": "Chocolate Chip Cookie",
+            "prices": ["1.99"],
+            "desc":
+            ""
+          }
+        ]
+      }
+    ]
+  }
 }
